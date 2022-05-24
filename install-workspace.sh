@@ -119,5 +119,5 @@ git config --global color.diff.whitespace "red reverse"
 
 # dotfiles
 git clone --bare https://github.com/louiskimlevu/dotfiles $HOME/.cfg
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 config checkout
