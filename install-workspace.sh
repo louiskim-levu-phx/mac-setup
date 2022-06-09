@@ -39,6 +39,10 @@ print_sep "Installing z"
 brew install z
 print_sep "Installing tldr"
 brew install tldr
+print_sep "Installing socli"
+brew tap gautamkrishnar/socli
+brew install socli
+
 print_sep "Installing diff-so-fancy"
 brew install diff-so-fancy
 brew tap homebrew/cask-fonts
